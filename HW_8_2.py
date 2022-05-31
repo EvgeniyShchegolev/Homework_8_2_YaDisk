@@ -24,7 +24,7 @@ class YaUploader:
 
 
 if __name__ == '__main__':
-    API_TOKEN = 'AQAAAAAsmwn9AADLWygjH5RjqUtUlg84UzFGok0'
+    API_TOKEN = ''
     path_to_file = os.path.join(os.getcwd(), 'test_file.txt')
     uploader = YaUploader(API_TOKEN)
     uploader.upload(path_to_file)
