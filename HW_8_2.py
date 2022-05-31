@@ -20,7 +20,7 @@ class YaUploader:
         res = requests.put(href_link, data=open(file_path, "rb"))
         res.raise_for_status()
         if res.status_code == 201:
-            print('Success')
+            print('Success upload!')
 
 
 if __name__ == '__main__':
